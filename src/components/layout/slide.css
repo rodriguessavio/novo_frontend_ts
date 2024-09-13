@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80.2%; 
+    overflow-x: hidden;
+    margin-left: 11.5%; 
+    border-radius: 5px;
+}
+
+
+
+.p1 {
+    background-color: #fff;
+    height: 61px;
+    color: #FC4F00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 600px;
+    border-radius: 9px;
+}
+
+/* slide.css */
+
+/* Estilo para as setas do Carousel */
+/* slide.css */
+
+
+
+
+
+/* center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+} */
+
+/* .p3 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 9px;
+    text-decoration: none;
+    color: #FC4F00;
+    font-weight: bold;
+} */
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    /* top: calc(50% - 20px); */
+    z-index: 1000;
+}
+
+.carousel-control-prev {
+    left: 1%;
+    transform: translateX(50%);
+}
+
+.carousel-control-next {
+    /* right: 50%; */
+    transform: translateX(-60%);
+}
+
+

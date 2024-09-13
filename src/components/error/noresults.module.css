@@ -1,0 +1,22 @@
+.noResults {
+    margin-top: 20px;
+    text-align: center; 
+    padding: 20px; 
+    background-color: #fff; /* Fundo vermelho claro para destacar a mensagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    color: #000; /* Texto vermelho escuro */
+    width: 1018px; /* Largura máxima */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title_noresults{
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .li_no{
+    text-align: start;
+    margin-left: 18px;
+  }

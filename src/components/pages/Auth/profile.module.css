@@ -1,0 +1,64 @@
+/* Estilização geral do container */
+.menu_princ {
+    background-color: #f9f9f9;
+    max-width: 1129px;
+    border-radius: 7px;
+    margin: 30px auto;
+    text-align: start;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.img_perfil_true {
+    height: 157px;
+    width: 155px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1129px;
+    height: 956px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding-left: 57px;
+    padding-top: 10px;
+    gap: 40px;
+}
+
+.opt {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.title_princ {
+    font-size: 25px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #C2C1C1;
+}
+
+.icon_contato {
+    height: 90px;
+    width: 88px;
+}
+
+.icon_endereco {
+    height: 90px;
+    width: 88px;
+}
+
+.nome_user {
+    font-size: 25px;
+}
+
+.email_user {
+    font-size: 20px;
+}

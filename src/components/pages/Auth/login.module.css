@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 1253px;
+    max-height: 723px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 20px;
+    padding-left: 40px;
+    font-family: "Roboto", system-ui;
+}
+
+.msg_one {
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.msg_two {
+    font-size: 20px;
+    text-align: center;
+    color: #ABB1AE;
+}
+
+.msg{
+    margin-top: -60px;
+}
+
+.tag_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tag_form input {
+    border: 1px solid #000;
+}
+
+.inp_email,
+.inp_senha{
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    border: 1px solid #C7CCC9 !important;
+    padding: 7px;
+}
+
+.btn_entrar {
+    background-color:#3483FA;
+    width: 470px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.inp_email:focus {
+    border: 1px solid #3483FA;
+}
+
+.inp_senha:focus {
+    border: 1px solid #3483FA;
+}
+
+
+.img_pedreiro_login img{
+    padding: 15px;
+    border-radius: 15px;
+    height: 628px;
+    width: 540px;
+
+}

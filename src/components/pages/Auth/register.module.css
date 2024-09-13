@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.principal{
+    display: flex;
+    max-width: 1253px;
+    max-height: 723px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: "Roboto", system-ui;
+    padding-left: 40px;
+    gap: 65px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.msg{
+    margin-top: -50px;
+}
+
+.lets{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desc {
+    color: #C7CCC9;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.p{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+}
+
+.img_pedreiro {
+    border-radius: 15px;
+    padding: 15px;
+    height: 628px;
+    width: 540px;
+}
+
+.input_text{
+    border-radius: 7px;
+    border: 1px solid #000;
+    margin-bottom: 9px;
+    padding-left: 4px;
+    font-family: "Roboto", system-ui;
+    width: 220px;
+    padding: 4px;
+    align-items: center;
+}
+
+.input_text:focus{
+    outline: none;
+    border: 1px solid #3483FA;
+}
+
+.input_select{
+    margin-bottom: 9px;
+    width: 220px;
+    padding: 4px;
+}
+
+.msg_criar_conta{
+    color: #776F6F;
+    font-size: 13px;
+}
+
+.msg_criar_conta{
+    color: #776F6F;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.criar_conta_btn{
+    background-color:#3483FA;
+    width: 470px;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.login a{
+    color: #3483FA;
+}

@@ -1,0 +1,56 @@
+.title {
+    margin-left: 10px !important;
+    color: #A6A6A5 !important;
+    text-align: center;
+  }
+  
+  .btn_cep {
+    color: #fff !important;
+    background-color: #FC4F00 !important;
+    border: none !important;
+  }
+  
+  .btn_cep:hover {
+    border-color: #fff; /* Cor da borda ao passar o mouse */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Modal Estilizado */
+  .modal_custom .modal-content {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal_header {
+    background-color: #FC4F00;
+    color: #fff;
+  }
+  
+  .modal_footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para o botão "Confirmar" */
+  .btn_confirmar {
+    background-color: #28a745;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn_cancelar {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .spinner_icon {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

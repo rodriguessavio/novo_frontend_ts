@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.container {
+    background-color: #fff;
+    margin: 40px auto 0; /* Margem superior de 40px */
+    width: 90%;
+    max-width: 600px;
+    font-family: "Roboto", system-ui;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infor {
+    text-align: center;
+}
+
+.t1 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.emailText {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.formulario_code {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input_digit {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: border-color 0.3s;
+}
+
+.input_digit:focus {
+    border-color: #3483FA;
+    outline: none;
+}
+
+.btn_enviar {
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3483FA;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_enviar:hover {
+    background-color: #2962FF;
+}
+
+.error {
+    color: #d32f2f;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.timer {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}

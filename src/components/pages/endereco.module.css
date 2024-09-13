@@ -1,0 +1,72 @@
+.corpo {
+    margin-left: 179px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    width: 752px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.conteudo_endereco{
+    font-size: 13px;
+}
+
+.btn_continuar {
+    margin-top: 7px;
+    margin-left: 595px;
+    width: 118px;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FC4F00;
+    color: #fff;
+}
+
+.nomes p{
+    font-size: 14px;
+}
+
+.conteudo_total {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    gap: 30px;
+    margin-bottom: 20px; 
+}
+
+.conteudo_com_resumo {
+    display: flex;
+    gap: 90px;
+}
+
+.resumo {
+    background-color: #fff;
+    padding: 15px;
+    width: 402px;
+    border-radius: 5px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.dados{
+    display: flex;
+    gap: 220px;
+    margin-top: 20px;
+}
