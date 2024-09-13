@@ -117,7 +117,7 @@ function NavBar() {
               <Link to="/login">Entre</Link>
             </>
           )}
-          <a href='#'>Compras</a>
+          <Link to='/compras'>Compras</Link>
           <button onClick={handleCarrinhoClick} className='cart-button'>
             <img src={cart} alt="" className='icon-cart'/>
           </button>

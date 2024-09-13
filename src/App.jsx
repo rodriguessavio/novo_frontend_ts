@@ -28,6 +28,7 @@ import DetalhesPedido from './components/pages/DetalhesPedido';
 import Message from './components/layout/Message';
 import Pagamento from './components/pages/Pagamento';
 import MinhasVendas from './components/pages/MinhasVendas';
+import MinhasCompras from './components/pages/MinhasCompras';
 
 function AppContent() {
   const location = useLocation();
@@ -59,6 +60,7 @@ function AppContent() {
             <Route path="/cadastro" element={<ProductSteps />} />
             <Route path="/endereco" element={<Endereco />} />
             <Route path="/steps" element={<ProductSteps />} />
+            <Route path="/compras" element={<MinhasCompras />} />
             <Route path="/" element={<Home />} />
           </Routes>
         </Container>

@@ -1,0 +1,120 @@
+.comprasContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.pedido {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pedidoHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 12px;
+}
+
+
+.pendente {
+    border-color: #dc3545;
+}
+
+.pendente .statusCircle {
+    background-color: #dc3545;
+}
+
+
+.emAndamento {
+    border-color: #ffc107;
+}
+
+.emAndamento .statusCircle {
+    background-color: #ffc107;
+}
+
+
+.confirmado {
+    border-color: #28a745;
+}
+
+.confirmado .statusCircle {
+    background-color: #28a745;
+}
+
+.statusCircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.status p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.itemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.itemDetails {
+    display: block;
+    max-width: 65%;
+}
+
+.itemDetails p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.productImage {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.verCompraButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+}
+
+.verCompraButton:hover {
+    background-color: #0056b3;
+}
