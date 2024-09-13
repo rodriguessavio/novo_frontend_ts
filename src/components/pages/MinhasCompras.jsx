@@ -17,7 +17,7 @@ const MinhasCompras = () => {
   useEffect(() => {
     const fetchCompras = async () => {
       try {
-
+        
         const responsePedidos = await axios.get('http://localhost:3000/order/list');
         const pedidosData = responsePedidos.data.body.filter(pedido => pedido.id_pessoa === user.id);
         setPedidos(pedidosData);
@@ -34,6 +34,7 @@ const MinhasCompras = () => {
 
         setItemsPedidos(pedidosMap);
 
+        
         const uniqueIdsProdutos = [...idsProdutos];
         const responsesProdutos = await Promise.all(
           uniqueIdsProdutos.map((id) =>
@@ -50,6 +51,7 @@ const MinhasCompras = () => {
         });
         setProdutos(produtosData);
 
+        
         const responseEmpresas = await Promise.all(
           [...idsUsuarios].map((id) => axios.get(`http://localhost:3000/user/list/${id}`))
         );
@@ -110,11 +112,16 @@ const MinhasCompras = () => {
                 <div className={styles.itemDetails}>
                   <p>Produto: {produtos[item.id_produto_empresa]?.nome || 'Nome não disponível'}</p>
                   <p>Empresa: {empresas[produtos[item.id_produto_empresa]?.id_usuario] || 'Empresa não disponível'}</p>
-                  <img
-                    src={`${UrlImagem}images/produto_empresa/${produtos[item.id_produto_empresa]?.imagem[0]?.split('\\').pop() || 'default.png'}`}
-                    alt={produtos[item.id_produto_empresa]?.nome || 'Imagem não disponível'}
-                    className={styles.productImage}
-                  />
+                  
+                  
+                  {produtos[item.id_produto_empresa]?.imagem && (
+                    <img
+                      src={`${UrlImagem}images/produto_empresa/${produtos[item.id_produto_empresa].imagem[0]?.split('\\').pop().split('/').pop()}`}
+                      alt={produtos[item.id_produto_empresa]?.nome || 'Imagem não disponível'}
+                      className={styles.productImage}
+                    />
+                  )}
+                  
                   <p>Quantidade: {item.quantidade}</p>
                   <p>Preço: R$ {parseFloat(item.preco).toFixed(2)}</p>
                 </div>
