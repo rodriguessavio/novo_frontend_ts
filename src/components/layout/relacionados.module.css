@@ -8,7 +8,7 @@
     padding: 20px;
     margin-top: 20px;
     margin-left: 11.5%;
-    height: 400px;
+    height: 500px;
   }
   
   .listagem {
@@ -36,7 +36,7 @@
   .produto img {
     width: 100%; 
     max-width: 170px;
-    height: 150px;  
+    height: 190px;  
     margin-bottom: 16px; 
     object-fit: cover; 
   }

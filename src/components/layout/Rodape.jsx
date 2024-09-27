@@ -8,7 +8,7 @@ function Rodape() {
         <div className={style.principal}>
         <div className={style.links}>
                 <a href="">Trabalhe conosco</a>
-                <a href='/termos'>Termos e condições</a>
+                <a href='/termos' className={style.link}>Termos e condições</a>
                 
                 <a href="">Contatos</a>
             </div>

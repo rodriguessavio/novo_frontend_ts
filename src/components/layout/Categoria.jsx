@@ -27,7 +27,7 @@ function Categoria() {
                                 <img src={estrutura} alt=""/>  
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/3"><p>Tijolos</p></a>
+                            <a href="http://localhost:5173/categorias/3" className='esp-txt'>Tijolos</a>
                         </div>
                     </div>
 
@@ -36,7 +36,7 @@ function Categoria() {
                             <img src={revestimento} alt="" />
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/11"><p>Tintas e Acessórios</p></a>
+                            <a href="http://localhost:5173/categorias/11" className='esp-txt'>Tintas e Acessórios</a>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ function Categoria() {
                             <img src={Materiaisdeacabamento} alt="" />
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/9"><p>Pisos e Revestimento</p></a>
+                            <a href="http://localhost:5173/categorias/9" className='esp-txt'>Pisos e Revestimento</a>
                         </div>
 
                     </div>
@@ -58,7 +58,7 @@ function Categoria() {
                             <img src={Materiaisdecobertura} alt="" />   
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/4"><p>Telhas</p></a>
+                            <a href="http://localhost:5173/categorias/4" className='esp-txt'>Telhas</a>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@ function Categoria() {
                             <img src={Materiaiseletricos} alt="" />
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/7"><p>Material Elétrico</p></a>
+                            <a href="http://localhost:5173/categorias/7" className='esp-txt'>Material Elétrico</a>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ function Categoria() {
                             <img src={cimento} alt="" className='img-cimento'/>   
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/1"><p>Cimento</p></a>
+                            <a href="http://localhost:5173/categorias/1" className='esp-txt'>Cimento</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ function Categoria() {
                             <img src={brita} alt="" className='img-cimento'/>
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/2"><p>Areia e Brita</p></a>
+                            <a href="http://localhost:5173/categorias/2" className='esp-txt'>Areia e Brita</a>
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@ function Categoria() {
                             <img src={Materiaispassaigismo} alt="" />
                         </div>
                         <div className='esp-txt'>
-                            <a href="http://localhost:5173/categorias/12"><p>Ferramentas</p></a>
+                            <a href="http://localhost:5173/categorias/12" className='esp-txt'>Ferramentas</a>
                         </div>
                     </div>
 

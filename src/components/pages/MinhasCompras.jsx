@@ -19,7 +19,7 @@ const MinhasCompras = () => {
       try {
         
         const responsePedidos = await axios.get('http://localhost:3000/order/list');
-        const pedidosData = responsePedidos.data.body.filter(pedido => pedido.id_pessoa === user.id);
+        const pedidosData = responsePedidos.data.body.filter(pedido => pedido.id_pessoa === user.id_pessoa);
         setPedidos(pedidosData);
 
         const pedidosMap = {};

@@ -64,7 +64,7 @@ function Pesquisa() {
           <div className={styles.filters}>
             <p className={styles.nameresults}>{location.state?.searchQuery || 'pesquisa'}</p>
             <p className={styles.results}>{filteredResults.length} resultados</p>
-            {/* <Filter filters={filters} onFilterChange={handleFilterChange} /> */}
+            <Filter filters={filters} onFilterChange={handleFilterChange} />
           </div>
         )}
         <div className={styles.resultsContainer}>

@@ -1,4 +1,3 @@
-// components/NavBar.jsx
 import './navbar.css';
 import { AiOutlineSearch } from "react-icons/ai";
 import React, { useContext, useState } from 'react';
@@ -34,7 +33,7 @@ function NavBar() {
       }
 
       const data = await response.json();
-      const allProducts = data.body; // Ajuste conforme a estrutura da sua resposta
+      const allProducts = data.body; 
       const filteredProducts = allProducts.filter(product =>
         product.nome.toLowerCase().includes(searchQuery.toLowerCase())
       );

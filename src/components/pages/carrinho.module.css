@@ -71,7 +71,7 @@
 }
 
 .imgProduto {
-    height: 100px;
+    height: 120px;
     width: 120px;
     object-fit: cover; /* Ajusta o tamanho da imagem */
 }
